@@ -1,0 +1,68 @@
+.edittraineravailability-heading{
+    margin: 4rem;
+    color: #FF5656;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.edittraineravailability-div-heading{
+    margin: 1rem;
+    color: #FF5656;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.edittraineravailability-div{
+    width: 80%;
+    margin: 2rem auto 2rem auto;
+}
+
+.edittraineravailability-div div{
+margin: 1rem 3rem;
+}
+
+.edittraineravailability-display{
+border: 3px solid #FF5656;
+}
+
+.edittraineravailability-addavailability{
+    border: 3px solid #FF5656;
+}
+
+.edittraineravailability-items .card{
+color: black;
+
+}
+
+.edittraineravailability-items .card-body{
+    margin: 0;
+    display: flex;
+}
+
+.edittraineravailability-items .card-text{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.edittraineravailability-addavailability-item{
+    text-align: center;
+}
+
+.add-btn{
+    border: 5px solid #FF5656;
+    height: 3rem !important;
+    width: 10rem;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+
+.add-btn:hover{
+    background-color: #FF5656;
+    color: white !important;
+
+}
+
+

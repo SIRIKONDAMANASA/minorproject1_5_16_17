@@ -1,0 +1,46 @@
+.trainerdetails-heading{
+    margin: 4rem;
+    color: #FF5656;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.trainerdetails-div{
+    display: flex;
+    width: 80%;
+    margin: 3rem auto 5rem auto;
+}
+
+.trainerdetails-text div{
+    margin-top: 5rem;
+}
+.trainerdetails-image img{
+    border: 5px solid #FF5656;
+    border-radius: 20px;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    width: 20rem;
+}
+
+@media (max-width: 768px) {
+    .trainerdetails-div{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    
+    .trainerdetails-div h2{
+        text-align: center;
+    }
+
+    .trainerdetails-image img{
+        margin-right: 0;
+    }
+
+    .trainerdetails-image{
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0;
+        
+    }
+}

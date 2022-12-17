@@ -1,0 +1,117 @@
+#root{
+    min-width: 375px;
+}
+
+.navbar-topbar{
+    height: 1.9rem;
+    background-color: #1E1E1E;
+    display: flex;
+    color: white;
+    width: 100%;
+    /* position: fixed; */
+    z-index: 1;
+    padding: 0.4rem;
+}
+
+.navbar-topbar-phone{
+    font-size: 0.8rem;
+    width: 40%;
+}
+
+.navbar-topbar .links{
+    margin-left: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-topbar .links:hover{
+    color: #FF5656;
+}
+
+.navbar-topbar-social{
+    font-size: 0.8rem;
+    width: 60%;
+    text-align: end;
+}
+.navbar-topbar-social img{
+    height: 1rem;
+    margin-right: 1rem;
+}
+
+.navbar{
+    background-color: rgba(112, 112, 112, 0.8);
+    /* position: fixed; */
+    z-index: 1;
+    width: 100%;
+    /* margin-top: 1.9rem; */
+}
+
+.navbar-brand img{
+    width: 10rem;
+}
+
+#navbarSupportedContent{
+    justify-content: end;
+}
+
+.navbar-nav{
+    margin-right: 2rem;
+}
+
+.nav-item{
+    font-weight: bold;
+}
+
+.navbar-nav a{
+    color: white !important;
+}
+
+.navbar-nav a:hover{
+    color: #FF5656 !important;
+}
+
+.nav-chat-item{
+    height: 2rem;
+}
+
+.chat-btn{
+    width: 5rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #FF5656;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.chat-btn:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+.navbar-toggler{
+    border: 4px solid #FF5656 !important;
+}
+
+@media (max-width: 768px) {
+    .navbar-topbar-phone{
+        display: none;
+    }
+    .navbar-topbar-social{
+        width: 100%;
+    }
+
+    .nav-item{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .navbar-nav{
+       margin-right: 0;
+    }
+
+    .chat-btn{
+        margin-right: auto;
+        margin-left: auto;
+        width: 7rem;
+    }
+}

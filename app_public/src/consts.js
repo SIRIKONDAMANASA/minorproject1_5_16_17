@@ -1,0 +1,5 @@
+export const COMETCHAT_CONSTANTS = {
+	APP_ID: '226190e4cdc4535a',
+	REGION: 'us',
+	AUTH_KEY: '901e7ab3558cbc0e8c332d80528bc8d44d72995c'
+}

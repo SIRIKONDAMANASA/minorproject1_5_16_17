@@ -1,0 +1,17 @@
+.container{
+    width: 70% !important;
+}
+
+.container div{
+    margin-top: 2rem;
+}
+
+.container .btn{
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 95% !important;
+    }
+}

@@ -1,0 +1,81 @@
+.userprofile-heading{
+    margin: 4rem;
+    color: #FF5656;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.userprofile-div{
+    width: 70%;
+    margin: 4rem auto 4rem auto;
+    color: white;
+    border: 5px solid #FF5656;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.userprofile-div .card{
+width: 100% !important;
+background-color: black;
+}
+
+.userprofile-div .card-img-top{
+    width: 30%;
+    border-radius: 50%;
+    margin: 1rem auto 1rem auto;
+    border: 5px solid #FF5656;
+}
+
+.userprofile-div hr{
+height: 3px;
+}
+
+.userprofile-div .card-title{
+    text-align: center;
+    font-weight: bold;
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+.userprofile-div .card-body{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    
+}
+
+.userprofile-div button{
+    margin: 1rem;
+    width: 10rem;
+}
+
+
+.userprofile-div .nav-link{
+    color: black !important;
+    background-color: white;
+    border: 5px solid #FF5656;
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.userprofile-div .nav-link:hover{
+    color: white !important;
+    background-color: #FF5656;
+}
+
+@media (max-width: 768px) {
+    .userprofile-div{
+        width: 95%;
+    }
+
+    .userprofile-div .card-body{
+        width: 95%;
+    }
+    .userprofile-div .nav-link{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

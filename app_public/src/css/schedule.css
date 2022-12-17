@@ -1,0 +1,70 @@
+.schedule-div{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: white; */
+}
+
+.schedule-div .active{
+    width: 100%;
+    color: white !important;
+    background-color: #FF5656 !important;
+    border-color: #FF5656 !important;
+}
+
+.schedule-div .nav-link:hover{
+    color: white !important;
+    background-color: #FF5656 !important;
+    border-color: #FF5656 !important;
+}
+
+.schedule-items .card:hover{
+    background-color: #FF5656 !important;
+    color: white !important;
+}
+
+.schedule-items .card{
+    background-color: black !important;
+    color: white !important;
+    border: 5px solid #FF5656;
+    margin-top: 1rem;
+    /* margin: 2rem; */
+}
+
+
+.day-name{
+    color: #FF5656;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.btn-primary{
+    border: 4px solid #FF5656;
+    background-color: #ffffff;
+    color: black;
+}
+
+.btn-primary:hover{
+    background-color: #FF5656;
+    border: 4px solid #FF5656;
+    color: white;
+
+}
+
+@media (max-width: 768px) {
+    .schedule-content{
+        width: 100%;
+    }
+    .schedule-div div{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .schedule-div .nav-item{
+        width: 100%;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,34 @@
+.addtrainerdocuments-heading{
+    margin: 4rem;
+    color: #FF5656;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.addtrainerdocuments-div{
+    width: 70%;
+    margin: 4rem auto 4rem auto;
+    color: white;
+    border: 5px solid #FF5656;
+    border-radius: 10px;
+}
+
+.addtrainerdocuments-div .card{
+    width: 100% !important;
+    background-color: black;
+}
+    
+.addtrainerdocuments-div input{
+    width: 20rem !important;
+}
+
+.addtrainerdocuments-div textarea{
+    width: 20rem !important;
+}
+
+@media (max-width: 768px) {
+    .addtrainerdocuments-div{
+        width: 95%;
+    }
+}
